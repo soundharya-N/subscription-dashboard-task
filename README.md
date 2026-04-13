@@ -28,7 +28,7 @@ Frontend
 ### Clone Repository
 
 ```
-git clone https://github.com/sound-soundharya/subscription-management.git
+git clone https://github.com/soundharya-N/subscription-management.git
 cd subscription-dashboard-task
 ```
 
@@ -79,13 +79,11 @@ npm run dev
 * Admin Dashboard for Subscriptions
 
 ---
-Author
+## Author
  Soundharya N
  Email:soundharya28032002@gmail.com
  Contact:8610666858
- GitHub: https://github.com/YOUR_USERNAME
 
 ## Submission
-
 GitHub Repository Link:
-https://github.com/sound-soundharya/subscription-management.git
+https://github.com/soundharya-N/subscription-management.git
