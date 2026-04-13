@@ -1,72 +1,91 @@
-# Subscription Management Dashboard
-
-Full-stack app with JWT authentication (Login + Register) built with React + Vite + Bootstrap (frontend) and Node.js + Express + MongoDB (backend).
-
+## Subscription Dashboard Task
 ---
 
 ## Project Structure
+subscription-dashboard-task/
+ ├── client   # Frontend (React)
+ └── server   # Backend (Node.js + Express)
+
+## Tech Stack
+Frontend
+ * React.js (Vite)
+ * Bootstrap
+
+## Backend
+ * Node.js
+ * Express.js
+
+## Database
+  * MongoDB (Mongoose)
+
+## Authentication
+* JWT (Access Token + Refresh Token)
+
+---
+
+##  Setup & Run Instructions
+
+### Clone Repository
 
 ```
-subscription-dashboard/
-├── backend/
-│   ├── config/db.js
-│   ├── controllers/authController.js
-│   ├── middleware/authMiddleware.js
-│   ├── models/User.js
-│   ├── routes/authRoutes.js
-│   ├── server.js
-│   ├── .env.example
-│   └── package.json
-└── frontend/
-    ├── src/
-    │   ├── context/AuthContext.jsx
-    │   ├── components/ProtectedRoute.jsx
-    │   ├── pages/Login.jsx
-    │   ├── pages/Register.jsx
-    │   ├── pages/Dashboard.jsx
-    │   ├── services/api.js
-    │   ├── App.jsx
-    │   ├── main.jsx
-    │   └── index.css
-    ├── index.html
-    ├── vite.config.js
-    └── package.json
+git clone https://github.com/YOUR_USERNAME/subscription-dashboard-task.git
+cd subscription-dashboard-task
 ```
 
 ---
 
-## Prerequisites
+###  Backend Setup
 
-- Node.js >= 18.x
-- MongoDB (local or Atlas)
-- npm
-
----
-
-## Setup & Run
-
-### 1. Backend
-
-```bash
-cd backend
+```
+cd server
 npm install
-
-
-npm run dev       # development (nodemon)
-# or
-npm start         # production
 ```
 
-Backend runs on **http://localhost:5000**
+Create `.env` file:
 
-### 2. Frontend
+```
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/subscription_dashboard
+JWT_SECRET=your_secret
+JWT_REFRESH_SECRET=your_refresh_secret
+```
 
-```bash
-cd frontend
+## Run backend:
+```
+cd server
+npm run dev
+```
+
+---
+
+## Frontend Setup
+
+```
+cd client
 npm install
 npm run dev
 ```
 
-Frontend runs on **http://localhost:5173**
+---
+
+## Features
+
+* User Registration & Login
+* JWT Authentication
+* Role-based Access (Admin/User)
+* View Plans
+* Subscribe to Plans
+* View Active Subscription
+* Admin Dashboard for Subscriptions
 
 ---
+Author
+ Soundharya N
+ Email:soundharya28032002@gmail.com
+ Contact:8610666858
+ GitHub: https://github.com/YOUR_USERNAME
+
+## Submission
+
+GitHub Repository Link:
+https://github.com/YOUR_USERNAME/subscription-dashboard-task
