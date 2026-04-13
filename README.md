@@ -28,7 +28,7 @@ Frontend
 ### Clone Repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/subscription-dashboard-task.git
+git clone https://github.com/sound-soundharya/subscription-management.git
 cd subscription-dashboard-task
 ```
 
@@ -88,4 +88,4 @@ Author
 ## Submission
 
 GitHub Repository Link:
-https://github.com/YOUR_USERNAME/subscription-dashboard-task
+https://github.com/sound-soundharya/subscription-management.git
